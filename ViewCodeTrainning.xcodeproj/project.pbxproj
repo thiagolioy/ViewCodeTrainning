@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		994EBED1209094F1001BACEF /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994EBED0209094F1001BACEF /* SnapKit.framework */; };
+		994EBEDA20909596001BACEF /* FBSnapshotTestCase.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 994EBED520909596001BACEF /* FBSnapshotTestCase.framework.dSYM */; };
+		994EBEDB20909596001BACEF /* Quick.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 994EBED620909596001BACEF /* Quick.framework.dSYM */; };
+		994EBEDC20909596001BACEF /* Nimble.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 994EBED720909596001BACEF /* Nimble.framework.dSYM */; };
+		994EBEDD20909596001BACEF /* SnapKit.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 994EBED820909596001BACEF /* SnapKit.framework.dSYM */; };
+		994EBEDE20909596001BACEF /* Nimble_Snapshots.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 994EBED920909596001BACEF /* Nimble_Snapshots.framework.dSYM */; };
+		994EBEDF2090959D001BACEF /* SnapKit.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994EBED820909596001BACEF /* SnapKit.framework.dSYM */; };
 		99D7ED702090935800295F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7ED6F2090935800295F3D /* AppDelegate.swift */; };
 		99D7ED722090935800295F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7ED712090935800295F3D /* ViewController.swift */; };
 		99D7ED752090935800295F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D7ED732090935800295F3D /* Main.storyboard */; };
 		99D7ED772090935800295F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D7ED762090935800295F3D /* Assets.xcassets */; };
 		99D7ED7A2090935800295F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D7ED782090935800295F3D /* LaunchScreen.storyboard */; };
 		99D7ED852090935800295F3D /* ViewCodeTrainningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7ED842090935800295F3D /* ViewCodeTrainningTests.swift */; };
+		99F7C184209096770007D3D7 /* Reusable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F7C183209096770007D3D7 /* Reusable.framework */; };
+		99F7C186209096AE0007D3D7 /* Reusable.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 99F7C185209096AE0007D3D7 /* Reusable.framework.dSYM */; };
+		99F7C187209096B40007D3D7 /* Reusable.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 99F7C185209096AE0007D3D7 /* Reusable.framework.dSYM */; };
+		99F7C18C209096D50007D3D7 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F7C188209096D40007D3D7 /* FBSnapshotTestCase.framework */; };
+		99F7C18D209096D50007D3D7 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F7C189209096D40007D3D7 /* Nimble.framework */; };
+		99F7C18E209096D50007D3D7 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F7C18A209096D40007D3D7 /* Quick.framework */; };
+		99F7C18F209096D50007D3D7 /* Nimble_Snapshots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F7C18B209096D50007D3D7 /* Nimble_Snapshots.framework */; };
+		99F7C191209096ED0007D3D7 /* FBSnapshotTestCase.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994EBED520909596001BACEF /* FBSnapshotTestCase.framework.dSYM */; };
+		99F7C192209096ED0007D3D7 /* Nimble_Snapshots.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994EBED920909596001BACEF /* Nimble_Snapshots.framework.dSYM */; };
+		99F7C193209096ED0007D3D7 /* Nimble.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994EBED720909596001BACEF /* Nimble.framework.dSYM */; };
+		99F7C194209096ED0007D3D7 /* Quick.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994EBED620909596001BACEF /* Quick.framework.dSYM */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +43,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		994EBED320909503001BACEF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				99F7C187209096B40007D3D7 /* Reusable.framework.dSYM in CopyFiles */,
+				994EBEDF2090959D001BACEF /* SnapKit.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F7C190209096DD0007D3D7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				99F7C191209096ED0007D3D7 /* FBSnapshotTestCase.framework.dSYM in CopyFiles */,
+				99F7C192209096ED0007D3D7 /* Nimble_Snapshots.framework.dSYM in CopyFiles */,
+				99F7C193209096ED0007D3D7 /* Nimble.framework.dSYM in CopyFiles */,
+				99F7C194209096ED0007D3D7 /* Quick.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		994EBED0209094F1001BACEF /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		994EBED520909596001BACEF /* FBSnapshotTestCase.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = FBSnapshotTestCase.framework.dSYM; path = Carthage/Build/iOS/FBSnapshotTestCase.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		994EBED620909596001BACEF /* Quick.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Quick.framework.dSYM; path = Carthage/Build/iOS/Quick.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		994EBED720909596001BACEF /* Nimble.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Nimble.framework.dSYM; path = Carthage/Build/iOS/Nimble.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		994EBED820909596001BACEF /* SnapKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SnapKit.framework.dSYM; path = Carthage/Build/iOS/SnapKit.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		994EBED920909596001BACEF /* Nimble_Snapshots.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Nimble_Snapshots.framework.dSYM; path = Carthage/Build/iOS/Nimble_Snapshots.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		99D7ED6C2090935800295F3D /* ViewCodeTrainning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewCodeTrainning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D7ED6F2090935800295F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99D7ED712090935800295F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +87,12 @@
 		99D7ED802090935800295F3D /* ViewCodeTrainningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewCodeTrainningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D7ED842090935800295F3D /* ViewCodeTrainningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeTrainningTests.swift; sourceTree = "<group>"; };
 		99D7ED862090935800295F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99F7C183209096770007D3D7 /* Reusable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reusable.framework; path = Carthage/Build/iOS/Reusable.framework; sourceTree = "<group>"; };
+		99F7C185209096AE0007D3D7 /* Reusable.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Reusable.framework.dSYM; path = Carthage/Build/iOS/Reusable.framework.dSYM; sourceTree = SOURCE_ROOT; };
+		99F7C188209096D40007D3D7 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
+		99F7C189209096D40007D3D7 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		99F7C18A209096D40007D3D7 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		99F7C18B209096D50007D3D7 /* Nimble_Snapshots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble_Snapshots.framework; path = Carthage/Build/iOS/Nimble_Snapshots.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F7C184209096770007D3D7 /* Reusable.framework in Frameworks */,
+				994EBED1209094F1001BACEF /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +109,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F7C18C209096D50007D3D7 /* FBSnapshotTestCase.framework in Frameworks */,
+				99F7C18D209096D50007D3D7 /* Nimble.framework in Frameworks */,
+				99F7C18E209096D50007D3D7 /* Quick.framework in Frameworks */,
+				99F7C18F209096D50007D3D7 /* Nimble_Snapshots.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		994EBECF209094F1001BACEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99F7C188209096D40007D3D7 /* FBSnapshotTestCase.framework */,
+				99F7C18B209096D50007D3D7 /* Nimble_Snapshots.framework */,
+				99F7C189209096D40007D3D7 /* Nimble.framework */,
+				99F7C18A209096D40007D3D7 /* Quick.framework */,
+				99F7C183209096770007D3D7 /* Reusable.framework */,
+				994EBED0209094F1001BACEF /* SnapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		994EBED42090957D001BACEF /* dSYMs */ = {
+			isa = PBXGroup;
+			children = (
+				99F7C185209096AE0007D3D7 /* Reusable.framework.dSYM */,
+				994EBED520909596001BACEF /* FBSnapshotTestCase.framework.dSYM */,
+				994EBED920909596001BACEF /* Nimble_Snapshots.framework.dSYM */,
+				994EBED720909596001BACEF /* Nimble.framework.dSYM */,
+				994EBED620909596001BACEF /* Quick.framework.dSYM */,
+				994EBED820909596001BACEF /* SnapKit.framework.dSYM */,
+			);
+			path = dSYMs;
+			sourceTree = "<group>";
+		};
 		99D7ED632090935800295F3D = {
 			isa = PBXGroup;
 			children = (
+				994EBED42090957D001BACEF /* dSYMs */,
 				99D7ED6E2090935800295F3D /* ViewCodeTrainning */,
 				99D7ED832090935800295F3D /* ViewCodeTrainningTests */,
 				99D7ED6D2090935800295F3D /* Products */,
+				994EBECF209094F1001BACEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +197,8 @@
 				99D7ED682090935800295F3D /* Sources */,
 				99D7ED692090935800295F3D /* Frameworks */,
 				99D7ED6A2090935800295F3D /* Resources */,
+				994EBED220909500001BACEF /* Carthage Copy Frameworks  */,
+				994EBED320909503001BACEF /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -123,6 +216,8 @@
 				99D7ED7C2090935800295F3D /* Sources */,
 				99D7ED7D2090935800295F3D /* Frameworks */,
 				99D7ED7E2090935800295F3D /* Resources */,
+				99F7C195209096F10007D3D7 /* ShellScript */,
+				99F7C190209096DD0007D3D7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -179,9 +274,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994EBEDA20909596001BACEF /* FBSnapshotTestCase.framework.dSYM in Resources */,
 				99D7ED7A2090935800295F3D /* LaunchScreen.storyboard in Resources */,
+				994EBEDB20909596001BACEF /* Quick.framework.dSYM in Resources */,
+				994EBEDD20909596001BACEF /* SnapKit.framework.dSYM in Resources */,
 				99D7ED772090935800295F3D /* Assets.xcassets in Resources */,
 				99D7ED752090935800295F3D /* Main.storyboard in Resources */,
+				994EBEDC20909596001BACEF /* Nimble.framework.dSYM in Resources */,
+				994EBEDE20909596001BACEF /* Nimble_Snapshots.framework.dSYM in Resources */,
+				99F7C186209096AE0007D3D7 /* Reusable.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +294,42 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		994EBED220909500001BACEF /* Carthage Copy Frameworks  */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Reusable.framework",
+			);
+			name = "Carthage Copy Frameworks ";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		99F7C195209096F10007D3D7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/FBSnapshotTestCase.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble_Snapshots.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		99D7ED682090935800295F3D /* Sources */ = {
@@ -354,6 +491,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ViewCodeTrainning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tplioy.ViewCodeTrainning;
@@ -368,6 +509,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ViewCodeTrainning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tplioy.ViewCodeTrainning;
@@ -383,6 +528,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ViewCodeTrainningTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tplioy.ViewCodeTrainningTests;
@@ -399,6 +548,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ViewCodeTrainningTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tplioy.ViewCodeTrainningTests;
