@@ -8,24 +8,6 @@
 
 import UIKit
 
-protocol CodeView {
-    func buildViewHierarchy()
-    func setupConstraints()
-    func setupAdditionalConfiguration()
-    func setupView()
-}
-
-extension CodeView {
-    func setupView() {
-        buildViewHierarchy()
-        setupConstraints()
-        setupAdditionalConfiguration()
-    }
-    
-    func setupAdditionalConfiguration() {}
-}
-
-
 final class ViewControllerScreen: UIView {
     
     lazy var button: UIButton = {
@@ -53,10 +35,13 @@ extension ViewControllerScreen: CodeView {
     }
     
     func setupConstraints() {
-        button.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20).isActive = true
-        button.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20).isActive = true
-        button.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -20).isActive = true
-        button.heightAnchor.constraint(equalToConstant: 44).isActive = true
+        
+        button.snp.makeConstraints { make in
+            make.left.equalTo(self).offset(20)
+            make.right.equalTo(self).inset(20)
+            make.bottom.equalTo(self).inset(20)
+            make.height.equalTo(44)
+        }
     }
     
     func setupAdditionalConfiguration() {

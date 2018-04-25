@@ -15,6 +15,7 @@
 		994EBEDE20909596001BACEF /* Nimble_Snapshots.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 994EBED920909596001BACEF /* Nimble_Snapshots.framework.dSYM */; };
 		994EBEDF2090959D001BACEF /* SnapKit.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994EBED820909596001BACEF /* SnapKit.framework.dSYM */; };
 		998BB6412090C93B0056F2B9 /* ViewControllerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BB6402090C93B0056F2B9 /* ViewControllerScreen.swift */; };
+		998BB6432090D1ED0056F2B9 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BB6422090D1ED0056F2B9 /* CodeView.swift */; };
 		99D7ED702090935800295F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7ED6F2090935800295F3D /* AppDelegate.swift */; };
 		99D7ED722090935800295F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7ED712090935800295F3D /* ViewController.swift */; };
 		99D7ED772090935800295F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D7ED762090935800295F3D /* Assets.xcassets */; };
@@ -78,6 +79,7 @@
 		994EBED820909596001BACEF /* SnapKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = SnapKit.framework.dSYM; path = Carthage/Build/iOS/SnapKit.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		994EBED920909596001BACEF /* Nimble_Snapshots.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Nimble_Snapshots.framework.dSYM; path = Carthage/Build/iOS/Nimble_Snapshots.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		998BB6402090C93B0056F2B9 /* ViewControllerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScreen.swift; sourceTree = "<group>"; };
+		998BB6422090D1ED0056F2B9 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 		99D7ED6C2090935800295F3D /* ViewCodeTrainning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewCodeTrainning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D7ED6F2090935800295F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99D7ED712090935800295F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				99D7ED782090935800295F3D /* LaunchScreen.storyboard */,
 				99D7ED7B2090935800295F3D /* Info.plist */,
 				998BB6402090C93B0056F2B9 /* ViewControllerScreen.swift */,
+				998BB6422090D1ED0056F2B9 /* CodeView.swift */,
 			);
 			path = ViewCodeTrainning;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				99D7ED722090935800295F3D /* ViewController.swift in Sources */,
 				998BB6412090C93B0056F2B9 /* ViewControllerScreen.swift in Sources */,
 				99D7ED702090935800295F3D /* AppDelegate.swift in Sources */,
+				998BB6432090D1ED0056F2B9 /* CodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
