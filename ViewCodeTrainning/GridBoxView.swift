@@ -8,11 +8,22 @@
 
 import UIKit
 
+protocol GridBoxViewDelegate: class {
+    func didClickOnImage()
+}
+
 final class GridBoxView: UIView {
+    
+    weak var delegate: GridBoxViewDelegate?
     
     lazy var thumb: UIImageView = {
         let view = UIImageView(frame: .zero)
         view.backgroundColor = .green
+        let tapGesture = UITapGestureRecognizer(
+            target: self,
+            action: #selector(didClickOnImage)
+        )
+        view.addGestureRecognizer(tapGesture)
         return view
     }()
     
@@ -28,7 +39,8 @@ final class GridBoxView: UIView {
         return view
     }()
     
-    override init(frame: CGRect = .zero) {
+    init(frame: CGRect = .zero, delegate: GridBoxViewDelegate? = nil) {
+        self.delegate = delegate
         super.init(frame: frame)
         setupView()
     }
@@ -37,6 +49,13 @@ final class GridBoxView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
+}
+
+extension GridBoxView {
+    @objc
+    func didClickOnImage() {
+        delegate?.didClickOnImage()
+    }
 }
 
 

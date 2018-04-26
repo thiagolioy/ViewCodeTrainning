@@ -10,6 +10,17 @@ import UIKit
 
 final class ViewControllerScreen: UIView {
     
+    
+    lazy var gridBoxLeft: GridBoxView = {
+        let view = GridBoxView()
+        return view
+    }()
+    
+    lazy var gridBoxRight: GridBoxView = {
+        let view = GridBoxView()
+        return view
+    }()
+    
     lazy var button: UIButton = {
         let view = UIButton(frame: .zero)
         view.setTitle("fech", for: .normal)
@@ -18,8 +29,8 @@ final class ViewControllerScreen: UIView {
         return view
     }()
     
-    init() {
-       super.init(frame: .zero)
+    override init(frame: CGRect = .zero) {
+       super.init(frame: frame)
        setupView()
     }
     
@@ -32,6 +43,8 @@ final class ViewControllerScreen: UIView {
 extension ViewControllerScreen: CodeView {
     func buildViewHierarchy() {
         addSubview(button)
+        addSubview(gridBoxLeft)
+        addSubview(gridBoxRight)
     }
     
     func setupConstraints() {
@@ -41,6 +54,20 @@ extension ViewControllerScreen: CodeView {
             make.right.equalTo(self).inset(20)
             make.bottom.equalTo(self).inset(20)
             make.height.equalTo(44)
+        }
+        
+        gridBoxLeft.snp.makeConstraints { make in
+            make.height.equalTo(100)
+            make.width.equalTo(70)
+            make.left.equalToSuperview().offset(20)
+            make.centerY.equalToSuperview()
+        }
+        
+        gridBoxRight.snp.makeConstraints { make in
+            make.height.equalTo(100)
+            make.width.equalTo(70)
+            make.right.equalToSuperview().inset(20)
+            make.centerY.equalToSuperview()
         }
     }
     

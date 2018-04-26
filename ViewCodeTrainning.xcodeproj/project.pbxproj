@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		992F6D1A2092066000BD338D /* GridBoxViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992F6D192092066000BD338D /* GridBoxViewSpec.swift */; };
+		992F6D1C20921B5800BD338D /* ViewControllerScreenSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992F6D1B20921B5800BD338D /* ViewControllerScreenSpec.swift */; };
 		994EBED1209094F1001BACEF /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994EBED0209094F1001BACEF /* SnapKit.framework */; };
 		994EBEDA20909596001BACEF /* FBSnapshotTestCase.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 994EBED520909596001BACEF /* FBSnapshotTestCase.framework.dSYM */; };
 		994EBEDB20909596001BACEF /* Quick.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 994EBED620909596001BACEF /* Quick.framework.dSYM */; };
@@ -74,6 +75,7 @@
 
 /* Begin PBXFileReference section */
 		992F6D192092066000BD338D /* GridBoxViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxViewSpec.swift; sourceTree = "<group>"; };
+		992F6D1B20921B5800BD338D /* ViewControllerScreenSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScreenSpec.swift; sourceTree = "<group>"; };
 		994EBED0209094F1001BACEF /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		994EBED520909596001BACEF /* FBSnapshotTestCase.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = FBSnapshotTestCase.framework.dSYM; path = Carthage/Build/iOS/FBSnapshotTestCase.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		994EBED620909596001BACEF /* Quick.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Quick.framework.dSYM; path = Carthage/Build/iOS/Quick.framework.dSYM; sourceTree = SOURCE_ROOT; };
@@ -189,6 +191,7 @@
 			children = (
 				99D7ED862090935800295F3D /* Info.plist */,
 				992F6D192092066000BD338D /* GridBoxViewSpec.swift */,
+				992F6D1B20921B5800BD338D /* ViewControllerScreenSpec.swift */,
 			);
 			path = ViewCodeTrainningTests;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992F6D1A2092066000BD338D /* GridBoxViewSpec.swift in Sources */,
+				992F6D1C20921B5800BD338D /* ViewControllerScreenSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
