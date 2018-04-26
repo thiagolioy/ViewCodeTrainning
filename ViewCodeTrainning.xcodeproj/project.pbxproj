@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		992F6D1A2092066000BD338D /* GridBoxViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992F6D192092066000BD338D /* GridBoxViewSpec.swift */; };
 		994EBED1209094F1001BACEF /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994EBED0209094F1001BACEF /* SnapKit.framework */; };
 		994EBEDA20909596001BACEF /* FBSnapshotTestCase.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 994EBED520909596001BACEF /* FBSnapshotTestCase.framework.dSYM */; };
 		994EBEDB20909596001BACEF /* Quick.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 994EBED620909596001BACEF /* Quick.framework.dSYM */; };
@@ -16,11 +17,11 @@
 		994EBEDF2090959D001BACEF /* SnapKit.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 994EBED820909596001BACEF /* SnapKit.framework.dSYM */; };
 		998BB6412090C93B0056F2B9 /* ViewControllerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BB6402090C93B0056F2B9 /* ViewControllerScreen.swift */; };
 		998BB6432090D1ED0056F2B9 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BB6422090D1ED0056F2B9 /* CodeView.swift */; };
+		998BB6452090D7C90056F2B9 /* GridBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BB6442090D7C90056F2B9 /* GridBoxView.swift */; };
 		99D7ED702090935800295F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7ED6F2090935800295F3D /* AppDelegate.swift */; };
 		99D7ED722090935800295F3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7ED712090935800295F3D /* ViewController.swift */; };
 		99D7ED772090935800295F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D7ED762090935800295F3D /* Assets.xcassets */; };
 		99D7ED7A2090935800295F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D7ED782090935800295F3D /* LaunchScreen.storyboard */; };
-		99D7ED852090935800295F3D /* ViewCodeTrainningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D7ED842090935800295F3D /* ViewCodeTrainningTests.swift */; };
 		99F7C184209096770007D3D7 /* Reusable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F7C183209096770007D3D7 /* Reusable.framework */; };
 		99F7C186209096AE0007D3D7 /* Reusable.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 99F7C185209096AE0007D3D7 /* Reusable.framework.dSYM */; };
 		99F7C187209096B40007D3D7 /* Reusable.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 99F7C185209096AE0007D3D7 /* Reusable.framework.dSYM */; };
@@ -72,6 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		992F6D192092066000BD338D /* GridBoxViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxViewSpec.swift; sourceTree = "<group>"; };
 		994EBED0209094F1001BACEF /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		994EBED520909596001BACEF /* FBSnapshotTestCase.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = FBSnapshotTestCase.framework.dSYM; path = Carthage/Build/iOS/FBSnapshotTestCase.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		994EBED620909596001BACEF /* Quick.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Quick.framework.dSYM; path = Carthage/Build/iOS/Quick.framework.dSYM; sourceTree = SOURCE_ROOT; };
@@ -80,6 +82,7 @@
 		994EBED920909596001BACEF /* Nimble_Snapshots.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Nimble_Snapshots.framework.dSYM; path = Carthage/Build/iOS/Nimble_Snapshots.framework.dSYM; sourceTree = SOURCE_ROOT; };
 		998BB6402090C93B0056F2B9 /* ViewControllerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScreen.swift; sourceTree = "<group>"; };
 		998BB6422090D1ED0056F2B9 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		998BB6442090D7C90056F2B9 /* GridBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxView.swift; sourceTree = "<group>"; };
 		99D7ED6C2090935800295F3D /* ViewCodeTrainning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewCodeTrainning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D7ED6F2090935800295F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99D7ED712090935800295F3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,7 +90,6 @@
 		99D7ED792090935800295F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99D7ED7B2090935800295F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99D7ED802090935800295F3D /* ViewCodeTrainningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewCodeTrainningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		99D7ED842090935800295F3D /* ViewCodeTrainningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeTrainningTests.swift; sourceTree = "<group>"; };
 		99D7ED862090935800295F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99F7C183209096770007D3D7 /* Reusable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reusable.framework; path = Carthage/Build/iOS/Reusable.framework; sourceTree = "<group>"; };
 		99F7C185209096AE0007D3D7 /* Reusable.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Reusable.framework.dSYM; path = Carthage/Build/iOS/Reusable.framework.dSYM; sourceTree = SOURCE_ROOT; };
@@ -177,6 +179,7 @@
 				99D7ED7B2090935800295F3D /* Info.plist */,
 				998BB6402090C93B0056F2B9 /* ViewControllerScreen.swift */,
 				998BB6422090D1ED0056F2B9 /* CodeView.swift */,
+				998BB6442090D7C90056F2B9 /* GridBoxView.swift */,
 			);
 			path = ViewCodeTrainning;
 			sourceTree = "<group>";
@@ -184,8 +187,8 @@
 		99D7ED832090935800295F3D /* ViewCodeTrainningTests */ = {
 			isa = PBXGroup;
 			children = (
-				99D7ED842090935800295F3D /* ViewCodeTrainningTests.swift */,
 				99D7ED862090935800295F3D /* Info.plist */,
+				992F6D192092066000BD338D /* GridBoxViewSpec.swift */,
 			);
 			path = ViewCodeTrainningTests;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 					};
 					99D7ED7F2090935800295F3D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 99D7ED6B2090935800295F3D;
 					};
@@ -338,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				998BB6452090D7C90056F2B9 /* GridBoxView.swift in Sources */,
 				99D7ED722090935800295F3D /* ViewController.swift in Sources */,
 				998BB6412090C93B0056F2B9 /* ViewControllerScreen.swift in Sources */,
 				99D7ED702090935800295F3D /* AppDelegate.swift in Sources */,
@@ -349,7 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D7ED852090935800295F3D /* ViewCodeTrainningTests.swift in Sources */,
+				992F6D1A2092066000BD338D /* GridBoxViewSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +528,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -532,6 +538,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tplioy.ViewCodeTrainningTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewCodeTrainning.app/ViewCodeTrainning";
@@ -543,6 +550,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
