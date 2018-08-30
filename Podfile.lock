@@ -1,0 +1,32 @@
+PODS:
+  - Nimble (7.1.3)
+  - Quick (1.3.1)
+  - Reusable (4.0.2):
+    - Reusable/Storyboard (= 4.0.2)
+    - Reusable/View (= 4.0.2)
+  - Reusable/Storyboard (4.0.2)
+  - Reusable/View (4.0.2)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick
+  - Reusable
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+    - Reusable
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Nimble: 2839b01d1b31f6a6a7777a221f0d91cf52e8e27b
+  Quick: d17304d58d0d169dd0bd1c6e5c28e3318de32a1a
+  Reusable: 584a5629747c52e0f6a77841b400dc2643f6fa0f
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: 41f9113c8951f21124742da1baa7229484d97e55
+
+COCOAPODS: 1.5.3

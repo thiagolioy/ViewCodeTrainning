@@ -1,0 +1,6 @@
+framework module Pods_ViewCodeTrainning {
+  umbrella header "Pods-ViewCodeTrainning-umbrella.h"
+
+  export *
+  module * { export * }
+}
