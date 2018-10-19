@@ -14,6 +14,7 @@ target 'ViewCodeTrainning' do
     # Pods for testing
     pod "Quick"
     pod "Nimble"
+    pod "Nimble-Snapshots"
   end
 
 end

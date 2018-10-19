@@ -13,7 +13,7 @@ class ViewControllerScreenSpec: QuickSpec {
                 let frame = UIScreen.main.bounds
                 let sut = ViewControllerScreen(frame: frame)
                 
-                expect(sut) == recordSnapshot("ViewControllerScreen")
+                expect(sut) == snapshot("ViewControllerScreen")
             }
         }
     }

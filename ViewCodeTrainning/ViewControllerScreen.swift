@@ -21,6 +21,14 @@ final class ViewControllerScreen: UIView {
         return view
     }()
     
+    lazy var gridBoxContainer: UIStackView = {
+        let view = UIStackView()
+        view.axis = .horizontal
+        view.distribution = .fillEqually
+        view.spacing = 10
+        return view
+    }()
+    
     lazy var button: UIButton = {
         let view = UIButton(frame: .zero)
         view.setTitle("fech", for: .normal)
@@ -43,8 +51,9 @@ final class ViewControllerScreen: UIView {
 extension ViewControllerScreen: CodeView {
     func buildViewHierarchy() {
         addSubview(button)
-        addSubview(gridBoxLeft)
-        addSubview(gridBoxRight)
+        gridBoxContainer.addArrangedSubview(gridBoxLeft)
+        gridBoxContainer.addArrangedSubview(gridBoxRight)
+        addSubview(gridBoxContainer)
     }
     
     func setupConstraints() {
@@ -56,18 +65,19 @@ extension ViewControllerScreen: CodeView {
             make.height.equalTo(44)
         }
         
-        gridBoxLeft.snp.makeConstraints { make in
-            make.height.equalTo(100)
-            make.width.equalTo(70)
-            make.left.equalToSuperview().offset(20)
+        gridBoxContainer.snp.makeConstraints { make in
             make.centerY.equalToSuperview()
+            make.height.equalTo(250)
+            make.left.equalToSuperview().offset(20)
+            make.right.equalToSuperview().inset(20)
+        }
+        
+        gridBoxLeft.snp.makeConstraints { make in
+            make.height.equalToSuperview()
         }
         
         gridBoxRight.snp.makeConstraints { make in
-            make.height.equalTo(100)
-            make.width.equalTo(70)
-            make.right.equalToSuperview().inset(20)
-            make.centerY.equalToSuperview()
+            make.height.equalToSuperview()
         }
     }
     
